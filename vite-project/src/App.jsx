@@ -1,14 +1,14 @@
-import React from 'react'
-import Nav from "./Nav.jsx"
-import Hero from "./Hero.jsx"
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <>
-    <Nav/>
-    <Hero/>
-    </>
-  )
-}
+    <div className="font-serif bg-black min-h-screen overflow-hidden">
+      <Navbar />
+      <Hero />
+    </div>
+  );
+};
 
-export default App
+export default App;
