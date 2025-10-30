@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 
 // --- Configuration Constants ---
 // In your local project, you could put these in a separate 'config.js' file.
-const BEFORE_IMAGE_URL = "https://placehold.co/1200x800/262626/808080?text=Before+Empty+Room";
-const AFTER_IMAGE_URL = "https://placehold.co/1200x800/581c87/ffffff?text=After+Royal+Decor";
+const BEFORE_IMAGE_URL = "https://framerusercontent.com/images/zQeLQlGb7V9EFyfSJk8ZaVwqKc.png";
+const AFTER_IMAGE_URL = "https://framerusercontent.com/images/dtrQAcg5sPPdKaUVYp5lEUGRQ6o.png";
 
 // ----------------------------------------------------------------------
 // 1. ImageSlider Component (SHOULD BE MOVED TO: components/ImageSlider.jsx)
